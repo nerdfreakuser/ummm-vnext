@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useChatStore } from "./stores/chatStore";
+import { useChatStore } from "./stores/chatstore";
 
 export default function App() {
   const [msg, setMsg] = useState("");
